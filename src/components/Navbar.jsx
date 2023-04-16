@@ -34,7 +34,7 @@ function Navbar({ togglelightandday, theme }) {
 
     <AnimatePresence  >
       <motion.div id='navbar' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2, ease: 'anticipate' }} className=' w-full h-[98px] sticky top-0 z-30
-       justify-between dark:bg-transparent dark:bg-[#2F2F2F]   font-poppins items-center mb-10 md:mb-0 bg-opacity-95 bg-white md:bg-opacity-90 md:bg-white     ' >
+       justify-between  dark:bg-[#2F2F2F]   font-poppins items-center mb-10 md:mb-0  bg-white backdrop-blur backdrop-filter bg-opacity-30       ' >
         <div className='flex items-center  dark:text-[#bdbdbd]    text-black max-w-[1240px] mx-auto p-6  ' >
           <div onClick={scroltop} className='flex items-center cursor-pointer ' >
             <h3 className='dark:text-white text-black font-semibold ' >

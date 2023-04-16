@@ -60,7 +60,7 @@ function Hero() {
 
                             </a>
                             <a target='_blank' href='https://www.linkedin.com/in/sobhan-hadikhah-515a90258' className='hover:text-blue-500 hover:dark:text-orange-500 hover:scale-105 transition duration-100 ease-in ' >
-                                <RxLinkedinLogo size={30} />
+                                <RxLinkedinLogo size={30} />    
 
                             </a>
                             <a target='_blank' href='https://t.me/theycallmesobhan' className='hover:text-blue-500 hover:dark:text-orange-500 hover:scale-105 transition duration-100 ease-in ' >
