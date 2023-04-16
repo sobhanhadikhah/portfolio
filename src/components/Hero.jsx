@@ -1,11 +1,8 @@
-import React, { useState } from 'react'
-import CardHandemade from './CardHandemade';
 import personalpic from "../assets/personalpic.jpg";
 import { DiReact } from "react-icons/di"
 import { motion, wrap } from 'framer-motion';
 import { FaWhatsappSquare } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
-import NikeShoe from "../assets/Nike-Shoe.png"
 import { fadein } from "../utilis/motionVarition"
 import { RxGithubLogo, RxInstagramLogo, RxLinkedinLogo } from "react-icons/rx";
 function Hero() {

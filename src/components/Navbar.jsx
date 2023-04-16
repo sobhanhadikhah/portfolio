@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import personalpic from "../assets/personalpic.jpg";
 import { motion, AnimatePresence } from 'framer-motion';
 import { BsSun } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";

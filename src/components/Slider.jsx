@@ -1,14 +1,11 @@
-import React, { useEffect } from 'react'
-import { dropin } from "../utilis/motionVarition";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion, } from "framer-motion";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { fadeIn, fadein, staggerContainer, planetVariants } from '../utilis/motionVarition';
+import { fadein } from '../utilis/motionVarition';
 import { Slidersskills } from '../utilis/slider';
 
 function Slider() {

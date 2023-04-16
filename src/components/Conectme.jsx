@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { TfiEmail } from "react-icons/tfi";
 import { BsLinkedin } from "react-icons/bs";
-import { fadein, planetVariants, textVariant } from "../utilis/motionVarition";
+import { fadein } from "../utilis/motionVarition";
 const Conectme = () => {
     const form = useRef();
     const sendEmail = (e) => {
